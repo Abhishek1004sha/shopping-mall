@@ -1,0 +1,91 @@
+Shopping Mall Management System
+This is a Spring Boot project for managing a shopping mall system.
+
+Description
+The Shopping Mall Management System is a comprehensive platform designed to facilitate the efficient management and operations of a shopping mall. It provides a range of features and functionalities to streamline processes and enhance the overall experience for administrators and users.
+
+Technologies Used
+Backend:
+Spring Boot
+MySQL
+Spring Data JPA
+Spring Security
+RESTful APIs
+Cache
+Spring Pagination
+Reactive Programming
+Async Processing
+Mail Service
+Generative AI Service
+Frontend:
+React
+Tailwind CSS
+Context API
+Features
+User Authentication: Secure authentication mechanism for user access.
+Data Management: Efficient management of products, customers, vendors, and employees data.
+Cache Implementation: Implementing caching to optimize data retrieval and enhance performance.
+Pagination: Handling large datasets through pagination to improve user experience.
+Reactive Components: Utilizing reactive programming for responsive and real-time components.
+Asynchronous Processing: Executing tasks asynchronously to improve system responsiveness.
+Email Notifications: Sending notifications and alerts to users via email.
+Secure REST API: Implementing secure RESTful APIs to ensure data integrity and confidentiality.
+AI-powered SQL Generation: Utilizing generative AI service to automate SQL query generation based on user prompts.
+Interactive Frontend: Building an intuitive and user-friendly interface using React and Tailwind CSS.
+Prerequisites
+Before running this project, ensure you have the following installed:
+
+Java Development Kit (JDK) version 8 or later
+Maven
+MySQL Server
+Setup
+Clone the Repository:
+git clone https://github.com/RohitBhandare/shopping-mall-management-system.git
+
+Database Configuration:
+Create a MySQL database named shopping_mall.
+
+Update the database configuration in application.properties located in src/main/resources:
+
+spring.datasource.url=jdbc:mysql://localhost:3306/shopping_mall
+spring.datasource.username=<your_mysql_username>
+spring.datasource.password=<your_mysql_password>
+Running the Application:
+Navigate to the project directory and run the following command:
+
+mvn spring-boot:run
+
+Usage
+Once the application is running, you can access the endpoints using any HTTP client or web browser. By default, the application runs on http://localhost:8080.
+
+Shots
+Screenshot (422) Screenshot (419) Screenshot (417) Screenshot (416) Screenshot (414) Screenshot (425) Screenshot (423)
+
+About
+No description or website provided.
+Topics
+mysql microservices spring-boot reactjs spring-security springjpa reastful-api
+Resources
+ Readme
+ Activity
+Stars
+ 1 star
+Watchers
+ 1 watching
+Forks
+ 0 forks
+Report repository
+Releases
+No releases published
+Packages
+No packages published
+Languages
+JavaScript
+58.4%
+ 
+Java
+41.3%
+ 
+Other
+0.3%
+Footer
